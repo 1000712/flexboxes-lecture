@@ -55,7 +55,7 @@ html {
     display: flex;
     /*flex-direction: row;*/
     /*flex-wrap: nowrap;*/
-    height: 400px;
+    height: 100px;
     flex-flow: row nowrap;
     /*justify-content: center;
     align-items: center;
@@ -64,5 +64,13 @@ html {
 
 p {
     font-size: initial;
+    width: 50%;
+}
 
+.main{  
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
